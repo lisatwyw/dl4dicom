@@ -1,3 +1,22 @@
+# Code snippets
+
+## Instantiate generator
+
+xx_val # additional clinical data
+yy_val # vector of classes
+
+IMSZ = (224,224,3)
+BS=24
+params2 = {'dim': IMSZ,
+          'batch_size': 24,
+          'nclasses': 2,
+          'shuffle': True,                     
+          }
+params2['add_rotation']=params2['add_scaling']=params2['add_flipping']=params2['add_translation']=None    
+
+val_gen=otf_DataGenerator( np.arange(yy_val.shape[0]), clinical_data=xx_val, labels=yy_val, **params2, verbose=2, model=model )     
+val_gen.__getitem__(90)
+
 val_gen.misc
 
 {'details': ['1.250000 3 055Y 6177_SIVoluZo',
