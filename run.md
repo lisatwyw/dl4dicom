@@ -1,9 +1,47 @@
-# Command line
+# Installation
+
 ```
-ipython run_dl4dcm.py TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100
+pip install tensorflow-gpu==2 pydicom  ... 
+```
+*(list to be continued)*
+ 
+# Configuration
+
+## Parameters of each trial
+
+Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100```
+
+| Character sequence  | Brief description of training configuration |
+| ------------- |:-------------|
+| TK | Prediction task |
+| MD | Base model ID |
+| FS | Feature set drawn from clinical data |
+| FD | # of folds |
+| RS | 1: Under-sampling; 2: Over-sampling |
+| IP | Imputer ID |
+
+## Specific to ROI extraction
+| ------------- |:-------------|
+| IZ | Resolution of image pixel (512 or 224; SZ x SZ x 3) |
+| IR | Sampling rate |
+| IQ | Number of intensity levels; 2**IQ |
+| IF | Index of first slice to extract |
+
+## Specific to CNN
+| ------------- |:-------------|
+| BS | Size of mini batches in training CNN  |
+| NE | Maximum number of epochs to train |
+
+
+# Running
+
+## Command line
+```
+ipython -i run_dl4dcm.py TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_IQ:12_IF:5_BS:12_NE:20
+
 ```
 
-# IPython
+## IPython
 ```
 In [1]: afile='TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:10'
 In [2]: exec( open("parse_args.py", encoding='UTF-8').read() )
@@ -11,12 +49,12 @@ In [3]: MODE=1
 In [4]: exec( open("run_dl4dcm.py", encoding='UTF-8').read() )
 ```
 
-# Submission on Graham
+## Submission on Graham@ComputeCanada
 
 [See info](https://docs.computecanada.ca/wiki/Graham#GPUs_on_Graham)
 
 
-## Example
+### Example
 ```
 #!/bin/bash
 #SBATCH --account=def-your_username
@@ -31,18 +69,3 @@ ipython run_dl4dcm.py TK:SE3_MD:102_FD:6_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:10
 ```
 
 
-# Parameters of each trial
-
-Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100```
-
-| Character sequence  | Brief description of training configuration |
-| ------------- |:-------------|
-| TK | Prediction task |
-| MD | Base model ID |
-| FD | # of folds |
-| IP | Imputer ID |
-| FS | Feature set drawn from clinical data |
-| BS | Size of mini batches in training CNN  |
-| NE | # of epochs |
-| IR | Resolution of image pixel (512 or 224) |
-| RS | 1: Under-sampling; 2: Over-sampling |
