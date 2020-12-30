@@ -9,7 +9,7 @@ pip install tensorflow-gpu==2 pydicom  ...
 
 ## Parameters of each trial
 
-Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100```
+Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_IF:2_BS:12_NE:100```
 
 ## Trial setup
 | Code | Brief description of training configuration |
