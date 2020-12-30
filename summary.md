@@ -6,7 +6,7 @@ This repo will provide reproducibile code of an extended work of [(Tang et al., 
 
 - How? CT data are not processed a priori but read directly from raw Dicom images 
 - Inputs: Annotated CT Dicom folders
-- Parameters: TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:3
+- Parameters: see below
 
 ## Research questions
 
