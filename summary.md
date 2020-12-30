@@ -31,7 +31,7 @@ pip install tensorflow-gpu==2 pydicom  ...
 
 ### Parameters of each trial
 
-Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_IF:2_BS:12_NE:100```
+Example: ```export PARAMS=TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_IF:2_BS:12_NE:100```
 
 #### Trial setup
 | Code | Brief description of training configuration |
@@ -61,16 +61,15 @@ Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_IF:2_BS:12_NE:1
 ## Running
 
 ### Command line
+
+After activating ```tf-gpu``` virtual environment in Unix, issue:
 ```
-ipython -i run_dl4dcm.py TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_IQ:12_IF:5_BS:12_NE:20
+(tf-gpu)$ ipython -i run_dl4dcm.py $PARAMS
 ```
 
-### IPython
+This will run script and stay in interactive mode in IPython after, i.e.:
 ```
-In [1]: afile='TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:10'
-In [2]: exec( open("parse_args.py", encoding='UTF-8').read() )
-In [3]: MODE=1
-In [4]: exec( open("run_dl4dcm.py", encoding='UTF-8').read() )
+In [1]: # explore the workspace
 ```
 
 ### Submission on Graham@ComputeCanada
