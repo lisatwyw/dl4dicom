@@ -93,3 +93,24 @@ ipython run_dl4dcm.py $PARAMS # change PARAMS to actual list as shown above
 ```
 
 
+
+## Example outputs
+
+```
+SID-class, SliceThickness, ..., volume of lung tissues found at each slice
+
+3396-1 1.250000 297.5 slice 20 slice 34.0 v=2661, slice 48.0 v=2661,
+5341-0 1.250000 330.0 slice 20 slice 36.0 v=6968, slice 52.0 v=6968,
+5450-0 1.000000 366.0 slice 20 slice 38.0 v=2357, slice 56.0 v=2357,
+2967-0 1.000000 348.0 slice 20 slice 37.0 v=3838, slice 54.0 v=3838,
+3925-0 1.250000 315.0 slice 20 slice 35.0 v=5450, slice 50.0 v=5450,
+3622-0 1.250000 432.5 slice 20 slice 41.0 v=1090, slice 62.0 v=1090,
+3977-0 1.250000 285.0 slice 20 slice 34.0 v=16521, slice 48.0 v=16521,
+3445-0 1.250000 425.0 slice 20 slice 41.0 v=7964, slice 62.0 v=7964,
+3647-1 1.250000 436.25 slice 20 slice 41.0 v=2932, slice 62.0 v=2932,
+0580-0 1.250000 375.0 slice 20 slice 38.0 v=4511, slice 56.0 v=4511,
+6300-0 1.250000 356.25 slice 20 slice 37.0 v=15148, slice 54.0 v=15148,
+0022-0 1.250000 335.0 slice 20 slice 36.0 v=5525, slice 52.0 v=5525
+```
+
+
