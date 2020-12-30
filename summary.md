@@ -88,7 +88,8 @@ In [1]: # explore the workspace
 
 source $HOME/tf-gpu/bin/activate # virtual environment with tf2.0 installation
 cd $HOME/mycode # where code is saved
-ipython run_dl4dcm.py TK:SE3_MD:102_FD:6_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100
+ipython run_dl4dcm.py $PARAMS # change PARAMS to actual list as shown above
+
 ```
 
 
