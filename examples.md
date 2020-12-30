@@ -1,7 +1,16 @@
 # Code snippets
 
+
+## Working with data frames
+
+```
+np.where( X.SUBJECT_ID.isin(avail) )[0]
+```
+
+
 ## Instantiate generator
 
+```
 xx_val # additional clinical data
 yy_val # vector of classes
 
@@ -17,6 +26,12 @@ params2['add_rotation']=params2['add_scaling']=params2['add_flipping']=params2['
 val_gen=otf_DataGenerator( np.arange(yy_val.shape[0]), clinical_data=xx_val, labels=yy_val, **params2, verbose=2, model=model )     
 val_gen.__getitem__(90)
 
+```
+
+
+## Observe the scanner variations of each mini batch 
+
+```
 val_gen.misc
 
 {'details': ['1.250000 3 055Y 6177_SIVoluZo',
@@ -91,3 +106,4 @@ val_gen.misc
   '1.000000 2 073Y 6177_SISens16',
   '1.000000 2 073Y 6177_SISens16',
   '1.000000 2 073Y 6177_SISens16']}
+```
