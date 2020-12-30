@@ -1,7 +1,7 @@
 
 # Introduction
 
-This is a repo of an extension of [](Lancet Digital Health 2020)
+This repo will provide reproducibile code of an extended work of [Tang et al., Lancet Digital Health 2020](https://www.sciencedirect.com/science/article/pii/S2589750020300649)
 
 # High-level summary
 
