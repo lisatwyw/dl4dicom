@@ -1,6 +1,6 @@
 # Introduction
 
-This repo will provide reproducibile code of an extended work of [Tang et al., Lancet Digital Health 2020](https://www.sciencedirect.com/science/article/pii/S2589750020300649)
+This repo will provide reproducibile code of an extended work of [(Tang et al., Lancet Digital Health 2020)](https://www.sciencedirect.com/science/article/pii/S2589750020300649)
 
 ## High-level summary
 
@@ -78,7 +78,7 @@ In [4]: exec( open("run_dl4dcm.py", encoding='UTF-8').read() )
 [See info](https://docs.computecanada.ca/wiki/Graham#GPUs_on_Graham)
 
 
-#### Example
+#### Example:
 ```
 #!/bin/bash
 #SBATCH --account=def-your_username
