@@ -11,16 +11,17 @@ pip install tensorflow-gpu==2 pydicom  ...
 
 Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100```
 
+## Trial setup
 | Code | Brief description of training configuration |
 | ------------- |:-------------|
-| TK | Prediction task |
+| TK | Prediction task: {SE1, SE2, SE3, EX1, EX2, EX3} |
 | MD | Base model ID |
 | FS | Feature set drawn from clinical data |
 | FD | # of folds |
 | RS | 1: Under-sampling; 2: Over-sampling |
 | IP | Imputer ID |
 
-# Specific to ROI extraction
+## Specific to ROI extraction
 | Code | Brief description of training configuration |
 | ------------- |:-------------|
 | IZ | Resolution of image pixel (512 or 224; SZ x SZ x 3) |
