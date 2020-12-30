@@ -11,7 +11,7 @@ pip install tensorflow-gpu==2 pydicom  ...
 
 Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100```
 
-| Character sequence  | Brief description of training configuration |
+| Code | Brief description of training configuration |
 | ------------- |:-------------|
 | TK | Prediction task |
 | MD | Base model ID |
@@ -20,7 +20,8 @@ Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100```
 | RS | 1: Under-sampling; 2: Over-sampling |
 | IP | Imputer ID |
 
-## Specific to ROI extraction
+# Specific to ROI extraction
+| Code | Brief description of training configuration |
 | ------------- |:-------------|
 | IZ | Resolution of image pixel (512 or 224; SZ x SZ x 3) |
 | IR | Sampling rate |
@@ -28,6 +29,7 @@ Example: ```TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_SZ:512_IR:20_BS:12_NE:100```
 | IF | Index of first slice to extract |
 
 ## Specific to CNN
+| Code | Brief description of training configuration |
 | ------------- |:-------------|
 | BS | Size of mini batches in training CNN  |
 | NE | Maximum number of epochs to train |
