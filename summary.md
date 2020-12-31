@@ -47,9 +47,9 @@ Example: ```export PARAMS=TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_I
 | 101 | VGG16 |
 | 102 | VGG19 |
 | 111 |  |
-| 121 |  |
-| 122 |  |
-| 131 |  |
+| 121 | ResNet50V2 |
+| 122 | ResNet101V2 |
+| 123 | ResNet151V2 |
 
 
 #### Specific to ROI extraction
