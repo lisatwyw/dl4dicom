@@ -43,6 +43,15 @@ Example: ```export PARAMS=TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_I
 | RS | 1: Under-sampling; 2: Over-sampling |
 | IP | Imputer ID |
 
+#### Base model ID
+| 101 | VGG16 |
+| 102 | VGG19 |
+| 111 |  |
+| 121 |  |
+| 122 |  |
+| 131 |  |
+
+
 #### Specific to ROI extraction
 | Code | Brief description of training configuration |
 | ------------- |:-------------|
@@ -96,6 +105,7 @@ ipython run_dl4dcm.py $PARAMS # change PARAMS to actual list as shown above
 
 ## Example outputs
 
+## Data generator
 ```
 SID-class, SliceThickness, ..., volume of lung tissues found at each slice
 
@@ -113,4 +123,37 @@ SID-class, SliceThickness, ..., volume of lung tissues found at each slice
 0022-0 1.250000 335.0 slice 20 slice 36.0 v=5525, slice 52.0 v=5525
 ```
 
+
+
+## Observe the scanner variations of each mini batch 
+
+```
+val_gen.misc
+
+{'details': ['GEHiSpQX 1.250000 1 4.250000 073Y',
+  'GEHiSpQX 1.250000 1 4.250000 073Y',
+  'SIEmot6 1.000000 2 -51.500000 049Y',
+  'SIEmot6 1.000000 2 -51.500000 049Y',
+  'GELighPl 1.250000 1 -45.500000 062Y',
+  'GELighPl 1.250000 1 -45.500000 062Y',
+  'GELighVC 1.250000 1 56.750000 000Y',
+  'GELighVC 1.250000 1 56.750000 000Y',
+  'SIEmot6 1.000000 2 -38.500000 058Y',
+  'SIEmot6 1.000000 2 -38.500000 058Y',
+  'GEHiSpQX 1.250000 1 22.264999 065Y',
+  'GEHiSpQX 1.250000 1 22.264999 065Y',
+  'SIVoluZo 1.250000 3 -133.000000 055Y',
+  'SIVoluZo 1.250000 3 -133.000000 055Y',
+  'SIVoluZo 1.250000 2 -122.000000 074Y',
+  'SIVoluZo 1.250000 2 -122.000000 074Y',
+  'GELighLi 1.250000 1 -3.250000 059Y',
+  'GELighLi 1.250000 1 -3.250000 059Y',
+  'GEHiSpCT 1.000000 1 -35.400002 060Y',
+  'GEHiSpCT 1.000000 1 -35.400002 060Y',
+  'SISens64 1.000000 2 19.500000 AgeN/A',
+  'SISens64 1.000000 2 19.500000 AgeN/A',
+  'GELighVC 1.250000 1 10.750000 000Y',
+  'GELighVC 1.250000 1 10.750000 000Y']}
+
+```
 
