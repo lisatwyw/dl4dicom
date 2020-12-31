@@ -6,7 +6,7 @@ This repo was created in memory of [Dr. Anna Celler](http://donate.bccancerfound
 
 - [Project descriptions & getting started](summary.md)
 - [Notes on clinical literature](lit.md)
-- [Listing of key code snippets](examples.md)
+- [Listing of key code snippets](misc_snippets.md)
 
 ```
 ```
