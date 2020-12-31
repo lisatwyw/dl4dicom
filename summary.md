@@ -1,6 +1,7 @@
 # Introduction
 
-This repo will provide reproducibile code of an extended work of [(Tang et al., Lancet Digital Health 2020)](https://www.sciencedirect.com/science/article/pii/S2589750020300649)
+This repo will provide reproducibile code of an extended work of [(Tang et al., Lancet Digital Health 2020)](https://www.sciencedirect.com/science/article/pii/S2589750020300649).
+
 
 ## High-level summary
 
@@ -23,9 +24,9 @@ This repo will provide reproducibile code of an extended work of [(Tang et al., 
 ## Installation
 
 ```
-pip install tensorflow-gpu==2 pydicom  ... 
+pip install tensorflow-gpu==2.0.0 pydicom  # to be completed... 
 ```
-*(list to be continued)*
+*(list to be completed)*
  
 ## Configuration
 
@@ -44,6 +45,9 @@ Example: ```export PARAMS=TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_I
 | IP | Imputer ID |
 
 #### Base model ID
+
+| ID | Model name |
+| ------------- |:-------------|
 | 101 | VGG16 |
 | 102 | VGG19 |
 | 111 |  |
