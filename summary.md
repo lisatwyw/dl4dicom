@@ -69,9 +69,16 @@ Example: ```export PARAMS=TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_I
 
 ## Running
 
-### Command line
+### Run via interactive session
 
-After activating ```tf-gpu``` virtual environment in Unix, issue:
+```
+salloc --time=3:0:0 --ntasks=2 --account=def-rogertam --mem-per-cpu=24G --gres=gpu:t4:1 --nodes=2
+```
+
+When job is released, activate ```tf-gpu``` virtual environment in Unix
+
+Next, issue:
+
 ```
 (tf-gpu)$ ipython -i run_dl4dcm.py $PARAMS
 ```
