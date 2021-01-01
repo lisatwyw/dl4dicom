@@ -1,6 +1,6 @@
 
 ## VGG16
-
+```
 ...
 _________________________________________________________________
 block5_conv3 (Conv2D)        (None, 32, 32, 512)       2359808
@@ -10,10 +10,10 @@ block5_pool (MaxPooling2D)   (None, 16, 16, 512)       0
 Total params: 14,714,688
 Trainable params: 14,714,688
 Non-trainable params: 0
-_________________________________________________________________
+```
 
 ## VGG19
-
+```
 ...
 _________________________________________________________________
 block5_conv3 (Conv2D)        (None, 32, 32, 512)       2359808
@@ -25,12 +25,11 @@ block5_pool (MaxPooling2D)   (None, 16, 16, 512)       0
 Total params: 20,024,384
 Trainable params: 20,024,384
 Non-trainable params: 0
-_________________________________________________________________
-
+```
 
 
 ## ResNetV502
-
+```
 ...
 __________________________________________________________________________________________________
 post_bn (BatchNormalization)    (None, 16, 16, 2048) 8192        conv5_block3_out[0][0]
@@ -40,3 +39,5 @@ post_relu (Activation)          (None, 16, 16, 2048) 0           post_bn[0][0]
 Total params: 23,564,800
 Trainable params: 23,519,360
 Non-trainable params: 45,440
+
+```
