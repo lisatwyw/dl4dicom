@@ -32,10 +32,10 @@ pip install tensorflow-gpu==2.0.0 pydicom  # to be completed...
 
 ### Parameters of each trial
 
-Example: ```export PARAMS=TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_IF:2_BS:12_NE:100```
+Example: ```export PARAMS=TK:SE3_MD:101_FZ:1_FD:4_FS:0_IZ:512_IF:52_BS:16_OP:7_LR:.001_DC:4_NE:10_DB:1```
 
 #### Trial setup
-| Code | Brief description of training configuration |
+| Code | Brief description |
 | ------------- |:-------------|
 | TK | Prediction task: {SE1, SE2, SE3, EX1, EX2, EX3} |
 | MD | Base model ID |
@@ -55,20 +55,25 @@ Example: ```export PARAMS=TK:SE3_MD:101_FD:4_IP:1_RS:1_FS:0_IZ:512_IR:20_IQ:12_I
 | 122 | ResNet101V2 |
 | 123 | ResNet151V2 |
 
-
 #### Specific to ROI extraction
-| Code | Brief description of training configuration |
+| Code | Brief description |
 | ------------- |:-------------|
 | IZ | Resolution of image pixel (512 or 224; SZ x SZ x 3) |
-| IR | Sampling rate |
 | IQ | Number of intensity levels; 2**IQ |
 | IF | Index of first slice to extract |
 
 #### Specific to CNN
-| Code | Brief description of training configuration |
+| Code | Brief description |
 | ------------- |:-------------|
 | BS | Size of mini batches in training CNN  |
 | NE | Maximum number of epochs to train |
+
+#### Specific to optimization 
+| Code | Brief description |
+| ------------- |:-------------|
+| OP | Optimizer ID |
+| LR | Initial learning rate |
+| DC | Decay scheme ID; 1-2:SDG, 3:AdaDelta, 4:AdaGrad, 5:NAdam, 6: AdaMax, 7:Adam, 8:RMSprop |
 
 
 ## Running
