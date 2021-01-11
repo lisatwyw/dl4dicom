@@ -1,6 +1,6 @@
 # Introduction
 
-This repo will provide reproducibile code of an extended work of [(Tang et al., Lancet Digital Health 2020)](https://www.sciencedirect.com/science/article/pii/S2589750020300649).
+This repo will provide reproducible code of an extended work of [(Tang et al., Lancet Digital Health 2020)](https://www.sciencedirect.com/science/article/pii/S2589750020300649).
 
 
 ## High-level summary
@@ -81,7 +81,7 @@ Example: ```export PARAMS=TK:SE3_MD:101_FZ:1_FD:4_FS:0_IZ:512_IF:52_BS:16_OP:7_L
 ### Run via interactive session
 
 ```
-salloc --time=3:0:0 --ntasks=2 --account=def-rogertam --mem-per-cpu=24G --gres=gpu:t4:1 --nodes=2
+salloc --time=3:0:0 --ntasks=2 --account=def-your_username --mem-per-cpu=24G --gres=gpu:t4:1 --nodes=2
 ```
 
 When job is released, activate ```tf-gpu``` virtual environment in Unix
