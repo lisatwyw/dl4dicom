@@ -28,7 +28,7 @@ val_gen.__getitem__(90)
 ```
 
 
-# Examine GPU usage
+# Examine GPU usage on Graham@ComputeCanada
 
 
 ```
