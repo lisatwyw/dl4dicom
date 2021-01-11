@@ -7,3 +7,8 @@ pneumonia, pneumothorax, pleural effusion, pulmonary embolism, pulmonary edema d
 
 ### AFib ###
 [Association study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6436530/pdf/nihms-1009092.pdf)
+
+
+## Smoking
+
+[COPDGene Dec 2020](https://journal.copdfoundation.org/Portals/0/JCOPDF/InPress/JCOPDF-2020-0140-InPress.pdf)
