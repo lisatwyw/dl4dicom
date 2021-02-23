@@ -21,7 +21,8 @@ This copy of the ECLIPSE is owned by Dr. Don Sin. Accordingly, to access this co
 - Command below will show you a *list* of subfolders named by subject ID (i.e. one folder for each subject). 
 
   ```
-  $ lstr /project/def-donsin/shared-folder/ECLIPSE/  # to see the permissions
+  $ ls /project/def-donsin/shared-folder/ECLIPSE/  
+  $ lstr /project/def-donsin/shared-folder/ECLIPSE/     # Or, to see the access permissions as well
   ```
 
 - To view the contents of each subfolder, you may use the ```cd``` command to *change* into a *directory*, and the ```ls``` command to list, e.g.:
