@@ -19,9 +19,9 @@ This copy of the ECLIPSE is owned by Dr. Don Sin. Accordingly, to access this co
 
 - Command below will show you a *list* of subfolders named by subject ID (i.e. one folder for each subject). 
 
-```
-$ lstr /project/def-donsin/shared-folder/ECLIPSE/  # to see the permissions
-```
+  ```
+  $ lstr /project/def-donsin/shared-folder/ECLIPSE/  # to see the permissions
+  ```
 
 - To view the contents of each subfolder, you may use the ```cd``` command to *change* into a *directory*, and the ```ls``` command to list, e.g.:
 
@@ -35,7 +35,7 @@ $ lstr /project/def-donsin/shared-folder/ECLIPSE/  # to see the permissions
 - Bone vs. standard kernel
 - L1: first timepoint, L2: second timepont, etc.
 
-e.g. ```026658003987_INSP_STD_L2_ECLIPSE```
+e.g. ```026658003987_INSP_STD_L2_ECLIPSE```, ```026658003987_INSP_BONE_L3_ECLIPSE```
 
 
 
