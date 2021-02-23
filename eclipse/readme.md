@@ -1,16 +1,19 @@
 
 *Please do not redistibute any of the data.*
 
-## Steps 
+## Requirements
 
-1. To access the data, you must become a user of Group ```acl-ubc-med-img```.
+This copy of the ECLIPSE is owned by Dr. Don Sin. Accordingly, to access this copy, you must obtain permission and become a user of Group ```acl-ubc-med-img```.
+
+## Steps to access the data
+
+1. Become user of  Group ```acl-ubc-med-img```
 2. SSH to graham via this command: 
     ```ssh username@graham.computecanada.ca
-4. Navigate to the folder; i.e. 
-
-```
-$ lstr /project/def-donsin/shared-folder/ECLIPSE/
-```
+2. Navigate to the folder; i.e. 
+    ```
+    $ lstr /project/def-donsin/shared-folder/ECLIPSE/
+    ```
 
 ## Folder structure
 
