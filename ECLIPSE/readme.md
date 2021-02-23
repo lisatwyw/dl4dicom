@@ -3,7 +3,7 @@
 
 ## Requirements
 
-The copy is owned by Dr. Don Sin. Accordingly, to access this copy, you must obtain permission and become a user of Group ```acl-ubc-med-img```.
+The copy is owned by Dr. Don Sin. To obtain read-access to this copy, you must obtain his permission and become a user of Group ```acl-ubc-med-img```.
 
 ## Steps to access the data
 
