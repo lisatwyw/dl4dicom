@@ -1,5 +1,5 @@
 
-*Please do not download and redistibute any parts of the data.*
+*Please do not download nor redistibute any parts of this ECLIPSE copy.*
 
 ## Requirements
 
