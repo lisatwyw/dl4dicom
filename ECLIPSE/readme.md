@@ -18,7 +18,7 @@ This copy of the ECLIPSE is owned by Dr. Don Sin. Accordingly, to access this co
 
 ## Folder structure
 
-- Command below will show you a *list* of subfolders named by subject ID (i.e. one folder for each subject). 
+- Command below will show you a *list* of folders named by subject (i.e. one folder for each subject, with all timepoints in each subfolder). 
 
   ```
   $ ls /project/def-donsin/shared-folder/ECLIPSE/  
@@ -36,6 +36,7 @@ This copy of the ECLIPSE is owned by Dr. Don Sin. Accordingly, to access this co
 
 - Bone vs. standard kernel
 - L1: first timepoint, L2: second timepont, etc.
+- Study ID: 4 ending digits 
 
 e.g. ```026658003987_INSP_STD_L2_ECLIPSE```, ```026658003987_INSP_BONE_L3_ECLIPSE```
 
