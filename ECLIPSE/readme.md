@@ -34,9 +34,9 @@ This copy of the ECLIPSE is owned by Dr. Don Sin. Accordingly, to access this co
 
 ## Brief summary about the filenames
 
+- Study ID: last 4 digits 
 - Bone vs. standard kernel
 - L1: first timepoint, L2: second timepont, etc.
-- Study ID: 4 ending digits 
 
 e.g. ```026658003987_INSP_STD_L2_ECLIPSE```, ```026658003987_INSP_BONE_L3_ECLIPSE```
 
