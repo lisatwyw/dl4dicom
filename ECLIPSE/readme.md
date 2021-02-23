@@ -13,7 +13,7 @@ The copy is owned by Dr. Don Sin. Accordingly, to access this copy, you must obt
     
 2. Navigate to the folder; i.e. 
     ```
-    lstr /project/def-donsin/shared-folder/ECLIPSE/
+    ls -lstr /project/def-donsin/shared-folder/ECLIPSE/
     ```
 
 ## Folder structure
