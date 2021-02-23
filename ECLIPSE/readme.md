@@ -1,5 +1,5 @@
 
-*Please do not redistibute any of the data.*
+*Please do not download and redistibute any parts of the data.*
 
 ## Requirements
 
