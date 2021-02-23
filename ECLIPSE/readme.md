@@ -9,7 +9,8 @@ This copy of the ECLIPSE is owned by Dr. Don Sin. Accordingly, to access this co
 
 1. Become user of  Group ```acl-ubc-med-img```
 2. SSH to graham via this command: 
-    ```ssh username@graham.computecanada.ca
+    ```ssh username@graham.computecanada.ca```
+    
 2. Navigate to the folder; i.e. 
     ```
     $ lstr /project/def-donsin/shared-folder/ECLIPSE/
