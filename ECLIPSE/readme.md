@@ -13,7 +13,7 @@ The copy is owned by Dr. Don Sin. Accordingly, to access this copy, you must obt
     
 2. Navigate to the folder; i.e. 
     ```
-    $ lstr /project/def-donsin/shared-folder/ECLIPSE/
+    lstr /project/def-donsin/shared-folder/ECLIPSE/
     ```
 
 ## Folder structure
@@ -21,8 +21,8 @@ The copy is owned by Dr. Don Sin. Accordingly, to access this copy, you must obt
 - Command below will show you a *list* of folders named by subject (i.e. one folder for each subject, with all timepoints in each subfolder). 
 
   ```
-  $ ls /project/def-donsin/shared-folder/ECLIPSE/  
-  $ lstr /project/def-donsin/shared-folder/ECLIPSE/     # Or, to see the access permissions as well
+  ls /project/def-donsin/shared-folder/ECLIPSE/  
+  lstr /project/def-donsin/shared-folder/ECLIPSE/     # Or, to see the access permissions as well
   ```
 
 - To view the contents of each subfolder, you may use the ```cd``` command to *change* into a *directory*, and the ```ls``` command to list, e.g.:
@@ -38,7 +38,10 @@ The copy is owned by Dr. Don Sin. Accordingly, to access this copy, you must obt
 - Bone vs. standard kernel
 - L1: first timepoint, L2: second timepont, etc.
 
-e.g. ```026658003987_INSP_STD_L2_ECLIPSE```, ```026658003987_INSP_BONE_L3_ECLIPSE```
+e.g. 
+```026658003987_INSP_STD_L2_ECLIPSE```
+
+```026658003987_INSP_BONE_L3_ECLIPSE```
 
 
 
