@@ -34,8 +34,8 @@ The copy is owned by Dr. Don Sin. Accordingly, to access this copy, you must obt
 
 ## Brief summary about the filenames
 
-- Study ID: last 4 digits 
-- Bone vs. standard kernel
+- Subject ID: last 4 digits 
+- Bone vs. STD (standard) kernel
 - L1: first timepoint, L2: second timepont, etc.
 
 e.g. 
