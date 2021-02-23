@@ -22,7 +22,7 @@ The copy is owned by Dr. Don Sin. Accordingly, to access this copy, you must obt
 
   ```
   ls /project/def-donsin/shared-folder/ECLIPSE/  
-  lstr /project/def-donsin/shared-folder/ECLIPSE/     # Or, to see the access permissions as well
+  ls -lstr /project/def-donsin/shared-folder/ECLIPSE/     # list and to see the access permissions as well as other info
   ```
 
 - To view the contents of each subfolder, you may use the ```cd``` command to *change* into a *directory*, and the ```ls``` command to list, e.g.:
