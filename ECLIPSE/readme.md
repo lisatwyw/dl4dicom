@@ -3,17 +3,17 @@
 
 ## Requirements
 
-The copy is owned by Dr. Don Sin. To obtain read-access to this copy, you must obtain his permission and become a user of Group ```acl-ubc-med-img```.
+The copy is owned by Dr. Don Sin. To obtain read-access to this copy, you must obtain his permission and become a member of ```acl-ubc-med-img``` through Compute Canada.
 
 ## Steps to access the data
 
-1. Become user of  Group ```acl-ubc-med-img```
-2. SSH to graham via this command: 
+1. Become a member of Group ```acl-ubc-med-img```
+2. SSH to Graham via this command: 
     ```ssh username@graham.computecanada.ca```
     
 2. Navigate to the folder; i.e. 
     ```
-    ls -lstr /project/def-donsin/shared-folder/ECLIPSE/
+    cd /project/def-donsin/shared-folder/ECLIPSE/
     ```
 
 ## Folder structure
